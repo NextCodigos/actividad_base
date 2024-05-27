@@ -10,8 +10,15 @@ const CAMBIOS=[
 ]
 CAMBIOS.map(valor=>select.insertAdjacentHTML("beforeend", `<option value='${valor.elCambio}'>${valor.moneda}</option>`))
 modificarCambio();
+// Vamos al input Euros
+document.querySelector("#euros").addEventListener("keyup",cambio1)
 select.addEventListener("change",modificarCambio)
 
+function cambio1(){
+  let escrito=Number(document.querySelector("#euros").value);
+  let resultado=escrito*cambio;
+  document.querySelector("#divisa").value=resultado
+}
 function modificarCambio(){
   cambio=select.value;
   const INDICE=select.selectedIndex;

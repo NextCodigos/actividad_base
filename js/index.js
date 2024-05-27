@@ -1,3 +1,23 @@
+let select=document.querySelector("select");
+
+select.insertAdjacentHTML("beforeend", "<option value='1.06'>Dólares USA</option>");
+select.insertAdjacentHTML(
+  "beforeend",
+  "<option value='0.87'>Libras esterlinas</option>"
+);
+select.insertAdjacentHTML(
+  "beforeend",
+  "<option value='370.22'>Pesos argentinos</option>"
+);
+select.insertAdjacentHTML(
+  "beforeend",
+  "<option value='4510.51'>Pesos colombianos</option>"
+);
+select.insertAdjacentHTML(
+  "beforeend",
+  "<option value='19.33'>Pesos mexicanos</option>"
+);
+
 /*
 Dólares USA - 1.06
 Libras esterlinas - 0.87

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+  font-family: 'Montserrat', sans-serif;
+  margin:2px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+#euros{
+  margin-right:14px;
+}
+input[type="number"]{
+  width: 45px;
+  text-align:right;  
+}
+label{
+  font-size:0.8em;
+}
+.caja{
+  padding:6px;
+  margin-top:10px;
+  border-radius:5px;
+}
+#cambio{
+  font-size:0.7em;
+}
+.caja1{
+  background-color:#f3b605;
+}
+.caja2{
+  color:white;
+  font-size:0.75em;
+  background-color:#4081ec;
+}
